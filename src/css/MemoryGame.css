@@ -1,66 +1,66 @@
 body {
-	user-select: none;
-	-ms-user-select: none;
+    user-select: none;
+    -ms-user-select: none;
 }
 
 h1 {
-	color: #773344;
-	font-size: 3rem;
-	text-align: center;
+    color: #773344;
+    font-size: 3rem;
+    text-align: center;
 }
 
 .game-controls {
-	background-color: #e85f5c;
-	padding: 0.25rem;
+    background-color: #e85f5c;
+    padding: 0.25rem;
 }
 
 button {
-	background-color: #773344;
-	color: #e3b5a4;
-	font-family: inherit;
-	font-size: 1.5rem;
+    background-color: #773344;
+    color: #e3b5a4;
+    font-family: inherit;
+    font-size: 1.5rem;
 }
 
 .game-status {
-	background-color: #c0f8d1;
-	color: #773344;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	font-size: 2rem;
-	height: 2em;
-	line-height: 2em;
-	text-align: center;
+    background-color: #c0f8d1;
+    color: #773344;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 2rem;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
 }
 
 #star-rating {
-	color: #e85f5c;
+    color: #e85f5c;
 }
 
 #game-board {
-	display: grid;
-	grid-template-columns: repeat(4, 25%);
-	background-color: #e85f5c;
-	padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    background-color: #e85f5c;
+    padding: 1rem;
 }
 
 .card {
-	background-color: #773344;
-	border: 0.25rem solid #e3b5a4;
-	color: #e3b5a4;
-	display: inline-block;
-	font-size: 3rem;
-	height: 2em;
-	line-height: 2em;
-	text-align: center;
+    background-color: #773344;
+    border: 0.25rem solid #e3b5a4;
+    color: #e3b5a4;
+    display: inline-block;
+    font-size: 3rem;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
 }
 
 .match {
-	background-color: #e3b5a4;
-	color: #773344;
+    background-color: #e3b5a4;
+    color: #773344;
 }
 
 footer {
-	color: #773344;
-	margin-top: 1em;
-	text-align: center;
+    color: #773344;
+    margin-top: 1em;
+    text-align: center;
 }

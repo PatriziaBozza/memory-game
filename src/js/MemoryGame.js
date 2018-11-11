@@ -21,7 +21,7 @@ function initializeCards() {
         cardDiv.className = "card";
         cardDiv.addEventListener("click", onCardClicked);
 
-        gameBoard.appendChild(cardDiv);     
+        gameBoard.appendChild(cardDiv);
     }
 }
 
