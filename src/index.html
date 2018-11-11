@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/MemoryGame.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="js/MemoryGame.js"></script>
+        <title>Memory Game</title>
+    </head>
+    <body onload="resetGameBoard();">
+        <header>
+            <h1>Memory Game</h1>
+        </header>
+        <div class="game-controls">
+            <button type="button" onclick="resetGameBoard()">Restart</button>
+        </div>
+        <div class="game-status">
+            <div id="star-rating"></div>
+            <div id="timer"></div>
+            <div id="move-counter"></div>
+        </div>
+        <div id="game-board">
+        </div>
+        <footer>
+            &copy; 2018 Bean & Bug All Rights Reserved
+        </footer>
+    </body>
+</html>
